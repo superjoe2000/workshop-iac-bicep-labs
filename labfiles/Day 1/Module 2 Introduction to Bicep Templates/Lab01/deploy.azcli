@@ -1,0 +1,17 @@
+#!/bin/sh
+resourceGroupName="storage-deploy-demo-rg"
+location="EastUS2"
+
+##Create resource group
+az group create --name $resourceGroupName --location $location
+
+###########################
+
+##Deploy resource group and provision resources
+az deployment group create \
+    --resource-group $resourceGroupName \
+    --template-file "main.bicep" \
+    --parameters "azuredeploy.parameters.json"  ##--what-if
+
+##Cleanup Resourcegroup
+az group delete --name $resourceGroupName --yes --no-wait

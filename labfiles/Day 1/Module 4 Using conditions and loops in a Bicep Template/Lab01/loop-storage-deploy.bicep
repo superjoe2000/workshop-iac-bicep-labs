@@ -19,7 +19,7 @@ param deployStorageAccount bool = true
 
 @description('Storage loop counter')
 @minValue(1)
-param storageLoopCount int = 1
+param storageLoopCount int = 2
 
 //loop over the storage account for storageLoopCount and check if we are to deploy a storage account based on a condition
 resource storageAccountLoop 'Microsoft.Storage/storageAccounts@2021-06-01' = [for i in range(0, storageLoopCount): if (deployStorageAccount) {
@@ -32,6 +32,7 @@ resource storageAccountLoop 'Microsoft.Storage/storageAccounts@2021-06-01' = [fo
     properties: {}
 }]
 
+output deployOrNot bool = deployStorageAccount
 //loop over outputs...will error if deployStorageAccount set to false
 output storageInfo array = [for i in range(0, storageLoopCount): {
   id: storageAccountLoop[i].id

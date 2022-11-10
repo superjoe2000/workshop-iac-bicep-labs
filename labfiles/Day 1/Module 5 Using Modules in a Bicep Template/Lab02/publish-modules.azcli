@@ -4,7 +4,7 @@ location="EastUS2"
 acrname="demoazuregistry"
 
 ##Version release tag f
-moduleReleaseVersion="v1.0.0"
+moduleReleaseVersion="v1.0.1"
 
 ##Create resource group
 az group create --name $resourceGroupName --location $location
@@ -16,7 +16,7 @@ az group create --name $resourceGroupName --location $location
 az deployment group create --resource-group $resourceGroupName --template-file "containerregistry-parameters.bicep" 
 
 #publish Storage Account
-az bicep publish --file 'storage-module.bicep' --target br:$acrname.azurecr.io/bicep/modules/storage/storageaccounts:$moduleReleaseVersion
+az bicep publish --file 'storage-module.bicep' --target br:$acrname.azurecr.io/storageaccounts:$moduleReleaseVersion
 
 #############################
 

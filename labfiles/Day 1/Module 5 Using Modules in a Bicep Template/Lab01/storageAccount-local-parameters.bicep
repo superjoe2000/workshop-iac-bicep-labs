@@ -4,7 +4,7 @@ param location string = resourceGroup().location
 
 
 @description('Generate random storage account name')
-param storageAccountName string = 'loc${uniqueString(resourceGroup().id)}'
+param storageAccountName string = '501loc${uniqueString(resourceGroup().id)}'
 
 module storage './storage-module.bicep' = {  
   name:'demostg'

@@ -1,5 +1,7 @@
 # Module 2: Introduction to Bicep Templates
 
+<!-- markdownlint-disable MD033 -->
+
 - [Module 2: Introduction to Bicep Templates](#module-2-introduction-to-bicep-templates)
   - [Lab01](#lab01)
     - [Prepare for deployments with labs](#prepare-for-deployments-with-labs)
@@ -73,7 +75,6 @@ You can use the 'deploy.sh' bash script to deploy the main.bicep template in the
 ![VSCode Menu](../../../../images/vscode_menubar.png)
 ![Select Bash](../../../../images/vscode-bash.png)
 
-
 or use this command:
 
 ```bash
@@ -94,9 +95,8 @@ Search for rg-iac-bicep-labs in the Resource Group list.
 
 ![The RG](../../../../images/rg-iac-bicep-labs.png)
 
-And click on the name to bring up the pane for that resource and see the new StorageAccount "salab..." in the resource pane.
+And click on the name to bring up the pane for that Resource Group and see the new StorageAccount "salab..." in the resource pane.
 
 ![RG Pane](../../../../images/salabInRg.png)
 
-
-You have sucessfully completed the Lab.
+You have successfully completed the Lab.

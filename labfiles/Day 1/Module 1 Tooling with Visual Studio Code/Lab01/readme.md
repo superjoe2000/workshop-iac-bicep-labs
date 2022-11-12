@@ -1,7 +1,7 @@
 # Module 1: Tooling with Visual Studio Code - Lab01: Configuring Tools
 
 - [Module 1: Tooling with Visual Studio Code - Lab01: Configuring Tools](#module-1-tooling-with-visual-studio-code---lab01-configuring-tools)
-  - [M01 Lab](#m01-lab)
+  - [Lab01](#lab01)
     - [Install Visual Studio Code](#install-visual-studio-code)
     - [Install Git](#install-git)
       - [Non default selections](#non-default-selections)
@@ -9,7 +9,7 @@
     - [Install Extensions](#install-extensions)
     - [Try some shortcuts](#try-some-shortcuts)
 
-## M01 Lab
+## Lab01
 
 ### Install Visual Studio Code
 

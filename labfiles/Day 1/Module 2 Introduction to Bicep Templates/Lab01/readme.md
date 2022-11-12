@@ -71,7 +71,7 @@ output storageAccountId string = storageAccount.id
 
 Ensure that you are working in the proper lab subdirectory.
 
-You can use the 'deploy.sh' bash script to deploy the main.bicep template in the Terminal of VSCode.  Ensure that you have selected a bash shell for the terminal.
+You can use the deploy.sh bash script to deploy the main.bicep template in the Terminal of VSCode.  Ensure that you have selected a bash shell for the terminal.
 
 ![VSCode Menu](../../../../images/vscode_menubar.png)
 ![Select Bash](../../../../images/vscode-bash.png)

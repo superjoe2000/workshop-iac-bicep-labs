@@ -11,7 +11,7 @@
 
 ### Modify storage account bicep template
 
-The main.bicep from Module 1 Lab01 will be modified.
+The main.bicep from Module 2 Lab01 will be modified.
 
 ```bicep
 @description('Location for the storage account.')
@@ -95,7 +95,7 @@ output storageAccountId string = storageAccount.id
 
 Ensure that you are working in the proper lab subdirectory.
 
-You can use the 'deploy.sh' bash script to deploy or use this command:
+You can use the deploy.sh bash script to deploy or use this command:
 
 ```bash
 az deployment group create --resource-group "rg-iac-bicep-labs" --template-file "main.bicep"

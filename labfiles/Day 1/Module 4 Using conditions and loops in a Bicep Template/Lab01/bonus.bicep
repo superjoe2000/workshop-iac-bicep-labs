@@ -15,7 +15,7 @@ param storageAccountType string = 'Standard_LRS'
 param location string = resourceGroup().location
 
 @description('Do we deploy the storage account or not?')
-param deployStorageAccount bool = true
+param deployStorageAccount bool = false
 
 @description('Storage loop counter')
 @minValue(1)
@@ -23,7 +23,7 @@ param storageLoopCount int = 2
 
 //loop over the storage account for storageLoopCount and check if we are to deploy a storage account based on a condition
 resource storageAccountLoop 'Microsoft.Storage/storageAccounts@2021-06-01' = [for i in range(0, storageLoopCount): if (deployStorageAccount) {
-    name: '${i}storage${uniqueString(resourceGroup().id)}' //dynamic name based on loop
+    name: '${i}bonus${uniqueString(resourceGroup().id)}' //dynamic name based on loop
     location: location
     sku: {
       name: storageAccountType

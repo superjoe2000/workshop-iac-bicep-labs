@@ -33,11 +33,12 @@ az group create --name rg-iac-bicep-labs --location eastus2
 #### Delete the Resource Group for the Labs
 
 Use this command to delete the Resource Group.
-<span style="color:red">*Note: Delete the Resource Group after completing all the Labs*
 
 ```bash
 az group delete --name rg-iac-bicep-labs --yes --no-wait
 ```
+
+<span style="color:red">*Note: Delete the Resource Group only after completing all the Labs*
 
 ### Create a storage account using bicep
 

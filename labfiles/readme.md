@@ -2,4 +2,4 @@
 
 Folders and files for the labs.
 
-The labguide is [here](../README.md)
+The Lab Guide is [here](../README.md)

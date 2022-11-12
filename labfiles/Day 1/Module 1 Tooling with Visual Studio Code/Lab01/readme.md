@@ -14,14 +14,14 @@
 ### Install Visual Studio Code
 
 Install from:
-https://code.visualstudio.com/
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ![Installing VSCode](../../../../images/VSCode.png)
 
 ### Install Git
 
 Install from
-https://git-scm.com/
+[https://git-scm.com/](https://git-scm.com/)
 
 ![Installing git](../../../../images/git.png)
 

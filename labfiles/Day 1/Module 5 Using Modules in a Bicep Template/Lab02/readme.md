@@ -1,10 +1,18 @@
 # Module 5 Using Modules in a Bicep Template
 
+- [Module 5 Using Modules in a Bicep Template](#module-5-using-modules-in-a-bicep-template)
+  - [Lab01](#lab01)
+    - [Use the Storage Account module from previous lab](#use-the-storage-account-module-from-previous-lab)
+    - [Provision an Azure Container Registry and publish the module](#provision-an-azure-container-registry-and-publish-the-module)
+    - [Modify Bicep template from previous lab to call remote module](#modify-bicep-template-from-previous-lab-to-call-remote-module)
+    - [Provision or deploy resources](#provision-or-deploy-resources)
+    - [Review results](#review-results)
+
 ## Lab01
 
 In this lab we create an Azure Container Registry and publish a module into it.  Later, we deploy a resource to Azure by referencing the module in the Azure Container Registry.
 
-### Publish Storage Account module from previous lab
+### Use the Storage Account module from previous lab
 
 Find or create the Storage Account Module file from the previous lab: storage-module.bicep.
 
@@ -53,7 +61,7 @@ You also need to change the name in the acr-deploy-publish.sh file.
 acrname="acrm5l2xxx"
 ```
 
-You can use the acr-deploy-publish.sh bash script to deploy or use these commands:
+You can use the acr-deploy-publish.sh bash script to deploy or use these commands.
 
 ```bash
 resourceGroupName="storage-modules-demo-rg"
@@ -72,7 +80,7 @@ In the portal find the Azure Container Registry in the rg-iac-bicep-labs resourc
 
 ### Modify Bicep template from previous lab to call remote module
 
-From the main.bicep in the previous lab, we referenced a local file for the module:
+From the main.bicep in the previous lab, we referenced a local file for the module.
 
 ```bicep
 module storagemodule './storage-module.bicep' = {
@@ -84,7 +92,7 @@ Now we will modify that to reference the module that is published to the Azure C
 module storage 'br:acrm5l2xxx.azurecr.io/bicep/modules/storage/storageaccounts:v1.0.0'= {
 ```
 
-Your file should look like this:
+Your main.bicep file should look like this.
 
 ```bicep
 //REMOTE Module Reference
@@ -107,7 +115,7 @@ module storage 'br:acrm5l2xxx.azurecr.io/bicep/modules/storage/storageaccounts:v
 
 Ensure that you are working in the proper lab subdirectory.
 
-You can use the deploy.sh bash script to deploy or use this command:
+You can use the deploy.sh bash script to deploy or use this command.
 
 ```bash
 az deployment group create --resource-group "rg-iac-bicep-labs" --template-file "main.bicep"

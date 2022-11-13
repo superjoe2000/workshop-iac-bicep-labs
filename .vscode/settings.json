@@ -1,10 +1,17 @@
 {
     "cSpell.words": [
+        "acrm",
+        "acrname",
+        "acrrepo",
+        "azurecr",
+        "demostg",
         "eastus",
         "GZRS",
         "labfiles",
         "RAGRS",
         "RAGZRS",
-        "salab"
+        "salab",
+        "storageaccounts",
+        "storagemodule"
     ]
 }

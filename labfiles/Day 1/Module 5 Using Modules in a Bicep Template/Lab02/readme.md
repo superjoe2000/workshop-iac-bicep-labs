@@ -1,14 +1,14 @@
 # Module 5 Using Modules in a Bicep Template
 
 - [Module 5 Using Modules in a Bicep Template](#module-5-using-modules-in-a-bicep-template)
-  - [Lab01](#lab01)
+  - [Lab02](#lab02)
     - [Use the Storage Account module from previous lab](#use-the-storage-account-module-from-previous-lab)
     - [Provision an Azure Container Registry and publish the module](#provision-an-azure-container-registry-and-publish-the-module)
     - [Modify Bicep template from previous lab to call remote module](#modify-bicep-template-from-previous-lab-to-call-remote-module)
     - [Provision or deploy resources](#provision-or-deploy-resources)
     - [Review results](#review-results)
 
-## Lab01
+## Lab02
 
 In this lab we create an Azure Container Registry and publish a module into it.  Later, we deploy a resource to Azure by referencing the module in the Azure Container Registry.
 

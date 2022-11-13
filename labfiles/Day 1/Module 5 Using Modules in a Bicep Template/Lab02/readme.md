@@ -123,7 +123,7 @@ az deployment group create --resource-group "rg-iac-bicep-labs" --template-file 
 
 ### Review results
 
-In the portal you will now find the new storage account.
+In the portal you will now find the new storage account along with all the other resources we have deployed.
 
 ![m5l2sa](../../../../images/m5l2sa.png)
 

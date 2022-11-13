@@ -146,7 +146,7 @@ QUESTION: How many storageAccounts will be deployed?
     C. 3
     D. None of the above
 
-This precedence of parameters either in your template or in a file is described in this [article](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files#parameter-name-conflicts)
+The precedence of parameters either in your template or in a file is described in this [article](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files#parameter-name-conflicts)
 
 ### Review results
 

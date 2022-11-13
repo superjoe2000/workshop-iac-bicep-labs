@@ -34,6 +34,13 @@ Use Windows' default console window
 
 #### Post installation actions
 
+In a bash shell enter the following commands.
+
+You can use the Terminal of VSCode.  Ensure that you have selected a bash shell for the terminal.
+
+![VSCode Menu](../../../../images/vscode_menubar.png)
+![Select Bash](../../../../images/vscode-bash.png)
+
 ```bash
 git config --global user.name "first last"
 git config --global user.email your_email@domain

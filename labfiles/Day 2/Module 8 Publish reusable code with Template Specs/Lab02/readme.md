@@ -1,6 +1,6 @@
 # Lab 02: Update and version a Template Spec
 
-Use this lab guide [here](https://learn.microsoft.com/en-au/training/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=bicepcli)
+Follow lab guide: [Exercise - Update and version a template spec](https://learn.microsoft.com/en-au/training/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=bicepcli)
 
 ```bash
 https://learn.microsoft.com/en-au/training/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=bicepcli

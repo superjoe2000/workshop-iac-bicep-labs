@@ -2,7 +2,7 @@
 
 No Labs.
 
-Use following links as a guide to Deploy Azure resources by using Bicep and Azure Pipelines or Github Actions.
+Use following links as a guides to Deploy Azure resources by using Bicep and Azure Pipelines or Github Actions.
 
 [Build your first Bicep deployment pipeline by using Azure Pipelines](https://learn.microsoft.com/en-au/training/modules/build-first-bicep-deployment-pipeline-using-azure-pipelines/)
 

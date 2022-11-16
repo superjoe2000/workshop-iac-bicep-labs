@@ -1,6 +1,6 @@
 # Module 6 Lab 02: Test and deploy your converted template
 
-Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=cli)
+Follow lab guide: [Exercise - Test and deploy your converted template](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=cli)
 
 ```bash
 https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=cli

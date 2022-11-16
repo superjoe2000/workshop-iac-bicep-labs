@@ -1,6 +1,6 @@
 # Module 7 Lab 02: Deploy resources to a multiple scopes by using modules
 
-Follow the exercise [here](https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=cli)
+Follow lab guide: [Exercise - Deploy resources to a management group](https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=cli)
 
 ```bash
 https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=cli

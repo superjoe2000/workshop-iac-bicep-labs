@@ -1,6 +1,6 @@
 # Module 7 Lab 03: Deploy resources to a Management group (Advanced)
 
-Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli)
+Follow lab guide: [Exercise - Convert and migrate resources](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli)
 
 ```bash
 https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli

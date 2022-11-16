@@ -34,14 +34,12 @@ Use Windows' default console window
 
 #### Post installation actions
 
-In a bash shell enter the following commands.
-
-You can use the Terminal of VSCode.  Ensure that you have selected a bash shell for the terminal.
+Use the Terminal in VSCode.  Ensure that you have selected a bash shell for the terminal.
 
 ![VSCode Menu](../../../../images/vscode_menubar.png)
 ![Select Bash](../../../../images/vscode-bash.png)
 
-In the terminal, enter the following commands (using your name and email address).
+In the bash shell, enter the following commands (using your name and email address).
 
 ```bash
 git config --global user.name "first last"
@@ -72,6 +70,8 @@ When complete, click the "Finish" button.
 ![azurecliinstalled](../../../../images/azurecliinstalled.png)
 
 Next, in the VSCode Terminal (Powershell or pwsh), enter the following commands:
+
+![pwshterminal](../../../../images/pwshterminal.png)
 
 ```bash
 az --version

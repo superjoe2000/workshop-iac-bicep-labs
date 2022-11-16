@@ -7,7 +7,6 @@
     - [Prepare for deployments with labs](#prepare-for-deployments-with-labs)
       - [Login to the Azure Platform](#login-to-the-azure-platform)
       - [Create the Resource Group for the Labs](#create-the-resource-group-for-the-labs)
-      - [Delete the Resource Group for the Labs](#delete-the-resource-group-for-the-labs)
     - [Create a storage account using bicep](#create-a-storage-account-using-bicep)
     - [Deploy resources](#deploy-resources)
     - [Review results](#review-results)
@@ -29,16 +28,6 @@ Create the resource group named "rg-iac-bicep-labs" in the East US 2 region with
 ```bash
 az group create --name rg-iac-bicep-labs --location eastus2
 ```
-
-#### Delete the Resource Group for the Labs
-
-Use this command to delete the Resource Group.
-
-```bash
-az group delete --name rg-iac-bicep-labs --yes --no-wait
-```
-
-<span style="color:red">*Note: Delete the Resource Group only after completing all the Labs*
 
 ### Create a storage account using bicep
 

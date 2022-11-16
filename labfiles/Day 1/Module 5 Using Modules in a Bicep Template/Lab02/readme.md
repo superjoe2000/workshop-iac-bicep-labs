@@ -7,7 +7,8 @@
     - [Modify Bicep template from previous lab to call remote module](#modify-bicep-template-from-previous-lab-to-call-remote-module)
     - [Provision or deploy resources](#provision-or-deploy-resources)
     - [Review results](#review-results)
-
+    - [Cleanup](#cleanup)
+      - [Delete the Resource Group for the Labs](#delete-the-resource-group-for-the-labs)
 ## Lab02
 
 In this lab we create an Azure Container Registry and publish a module into it.  Later, we deploy a resource to Azure by referencing the module in the Azure Container Registry.
@@ -128,3 +129,16 @@ In the portal you will now find the new storage account along with all the other
 ![m5l2sa](../../../../images/m5l2sa.png)
 
 You have successfully completed the Lab.
+
+### Cleanup
+
+#### Delete the Resource Group for the Labs
+
+Use this command to delete the Resource Group.
+
+```bash
+az group delete --name rg-iac-bicep-labs --yes --no-wait
+```
+
+<span style="color:red">*Note: Delete the Resource Group only after completing all the Labs*
+

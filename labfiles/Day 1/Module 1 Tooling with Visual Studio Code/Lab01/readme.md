@@ -83,6 +83,7 @@ In the terminal, enter the following commands (using your name and email address
 git config --global user.name "first last"
 git config --global user.email your_email@domain
 ```
+
 Your terminal window may look similar to this.
 
 ![gitcommands](../../../../images/gitcommands.png)

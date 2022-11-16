@@ -98,3 +98,5 @@ Search for, and install the extensions shown here.
 ### Try some shortcuts
 
 ![VSCode Shortcuts](../../../../images/shortcuts.png)
+
+You have successfully completed the Lab.

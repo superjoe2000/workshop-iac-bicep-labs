@@ -69,9 +69,11 @@ When complete, click the "Finish" button.
 
 ![azurecliinstalled](../../../../images/azurecliinstalled.png)
 
-Next, in the VSCode Terminal (Powershell or pwsh), enter the following commands:
+Select PowerShell or pwsh in the VSCode Terminal.
 
 ![pwshterminal](../../../../images/pwshterminal.png)
+
+In the VSCode Terminal (Powershell or pwsh), enter the following commands:
 
 ```bash
 az --version

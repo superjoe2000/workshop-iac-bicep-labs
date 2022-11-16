@@ -1,4 +1,10 @@
-# Lab 01: Convert and Migrate resources
+# Module 6 Lab 01: Convert and Migrate resources
+
+Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli
+```
 
 ## Steps
 
@@ -9,5 +15,3 @@
 5. Verify Bicep Template
 6. Try deploying Bicep template
 7. Review results
-
-Follow lab guide here: https://docs.microsoft.com/en-au/learn/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=powershell

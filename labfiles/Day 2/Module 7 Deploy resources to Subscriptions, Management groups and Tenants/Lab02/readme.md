@@ -1,4 +1,10 @@
-# Lab 02: Deploy resources to a multiple scopes by using modules
+# Module 7 Lab 02: Deploy resources to a multiple scopes by using modules
+
+Follow the exercise [here](https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=cli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=cli
+```
 
 ## Steps
 
@@ -10,5 +16,3 @@
 6. Deploy to template to Azure
 7. Review and verify deployment
 8.Cleanup resources
-
-Follow the exercise here: https://docs.microsoft.com/en-au/learn/modules/deploy-resources-scopes-bicep/7-exercise-deploy-management-group?pivots=powershell

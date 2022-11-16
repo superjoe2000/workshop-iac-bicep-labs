@@ -1,4 +1,10 @@
-# Lab 01: Convert and Migrate resources
+# Module 7 Lab 01: Convert and Migrate resources
+
+Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/4-exercise-deploy-subscription-scoped-resource?pivots=cli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/4-exercise-deploy-subscription-scoped-resource?pivots=cli
+```
 
 ## Steps
 
@@ -11,5 +17,3 @@
 7. Add variables
 8. Deploy to Azure
 9. Review results
-
-Follow lab guide here: https://learn.microsoft.com/en-au/training/modules/deploy-resources-scopes-bicep/4-exercise-deploy-subscription-scoped-resource?pivots=powershell

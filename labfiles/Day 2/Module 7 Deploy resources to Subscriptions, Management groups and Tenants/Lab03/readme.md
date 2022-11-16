@@ -1,4 +1,10 @@
-# Lab 03: Deploy resources to a Management group (Advanced)
+# Module 7 Lab 03: Deploy resources to a Management group (Advanced)
+
+Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=cli
+```
 
 ## Steps
 
@@ -10,5 +16,3 @@
 6. Deploy template to Azure
 7. Review and verify deployment
 8. Cleanup resources
-
-Follow lab guide here: https://docs.microsoft.com/en-au/learn/modules/migrate-azure-resources-bicep/3-exercise-convert-migrate-resources?pivots=powershell

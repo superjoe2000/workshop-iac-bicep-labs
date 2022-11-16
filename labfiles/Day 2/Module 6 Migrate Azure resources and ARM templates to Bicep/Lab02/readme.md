@@ -1,4 +1,10 @@
-# Lab 02: Test and deploy your converted template
+# Module 6 Lab 02: Test and deploy your converted template
+
+Follow lab guide [here](https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=cli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=cli
+```
 
 ## Steps
 
@@ -7,5 +13,3 @@
 3. Test deployment with -WhatIf Review output
 4. Deploy the template
 5. Cleanup resources
-
-Follow lab guide here: https://docs.microsoft.com/en-au/learn/modules/migrate-azure-resources-bicep/7-exercise-test-deploy-converted-template?tabs=screenshot&pivots=powershell

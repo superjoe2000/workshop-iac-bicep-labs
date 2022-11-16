@@ -1,5 +1,13 @@
 # Lab 02: Update and version a Template Spec
 
+Use this lab guide [here](https://learn.microsoft.com/en-au/training/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=bicepcli)
+
+```bash
+https://learn.microsoft.com/en-au/training/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=bicepcli
+```
+
+*Note: This lab guide contains an Azure Sandbox*
+
 ## Steps
 
 1. From previous lab - Update the Bicep Template
@@ -8,5 +16,3 @@
 4. Deploy the new Template Spec version
 5. Verify the deployment
 6. Review output
-
-Use this lab as a guide: https://docs.microsoft.com/en-au/learn/modules/arm-template-specs/7-exercise-update-version-template-spec?pivots=biceppowershell

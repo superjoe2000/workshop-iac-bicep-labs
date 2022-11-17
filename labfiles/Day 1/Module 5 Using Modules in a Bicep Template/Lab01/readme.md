@@ -1,5 +1,7 @@
 # Module 5 Using Modules in a Bicep Template
 
+<!-- markdownlint-disable MD033 -->
+
 - [Module 5 Using Modules in a Bicep Template](#module-5-using-modules-in-a-bicep-template)
   - [Lab01](#lab01)
     - [Create new Storage account bicep template module](#create-new-storage-account-bicep-template-module)

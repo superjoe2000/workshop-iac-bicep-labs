@@ -14,9 +14,12 @@
         "GZRS",
         "labfiles",
         "pwsh",
+        "pwshterminal",
         "RAGRS",
         "RAGZRS",
         "salab",
+        "salogs",
+        "stgmod",
         "storageaccounts",
         "storagemodule",
         "vscodeextension"

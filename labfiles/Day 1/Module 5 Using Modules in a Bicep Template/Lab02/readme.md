@@ -1,5 +1,7 @@
 # Module 5 Using Modules in a Bicep Template
 
+<!-- markdownlint-disable MD033 -->
+
 - [Module 5 Using Modules in a Bicep Template](#module-5-using-modules-in-a-bicep-template)
   - [Lab02](#lab02)
     - [Use the Storage Account module from previous lab](#use-the-storage-account-module-from-previous-lab)
@@ -9,6 +11,8 @@
     - [Review results](#review-results)
     - [Cleanup](#cleanup)
       - [Delete the Resource Group for the Labs](#delete-the-resource-group-for-the-labs)
+    - [Visit and Review Common Azure Resource Module Library](#visit-and-review-common-azure-resource-module-library)
+
 ## Lab02
 
 In this lab we create an Azure Container Registry and publish a module into it.  Later, we deploy a resource to Azure by referencing the module in the Azure Container Registry.
@@ -142,3 +146,8 @@ az group delete --name rg-iac-bicep-labs --yes --no-wait
 
 <span style="color:red">*Note: Delete the Resource Group only after completing all the Labs*
 
+### Visit and Review the Common Azure Resource Modules Library
+
+Browse to and review this site:  [https://aka.ms/carml](https://aka.ms/carml),
+
+And review the associated [wiki](https://github.com/Azure/ResourceModules/wiki).

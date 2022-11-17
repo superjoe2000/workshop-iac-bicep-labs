@@ -66,7 +66,7 @@ Next, we update the resource line to include the loop logic.
 resource storageAccountLoop 'Microsoft.Storage/storageAccounts@2021-06-01' = [for i in range(0, storageLoopCount): {
 ```
 
-We have also updated the resource name in the template to storageAccount Loop.  Your template should now look like this:
+We have also updated the resource name in the template to storageAccount Loop.  Your template should now look like this (main.bicep):
 
 ```bicep
 @description('Storage Account type')
@@ -141,10 +141,14 @@ az deployment group create --resource-group "rg-iac-bicep-labs" --template-file 
 ```
 
 QUESTION: How many storageAccounts will be deployed?
+
+```text
+Answers:
     A. 1
     B. 2
     C. 3
     D. None of the above
+```
 
 The precedence of parameters either in your template or in a file is described in this [article](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files#parameter-name-conflicts)
 

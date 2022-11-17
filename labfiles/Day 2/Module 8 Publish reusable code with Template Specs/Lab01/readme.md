@@ -1,5 +1,7 @@
 # Module 8 Lab 01: Create and deploy a template spec
 
+<!-- markdownlint-disable MD036 -->
+
 Follow lab guide: [Exercise - Create and deploy a template spec](https://learn.microsoft.com/en-au/training/modules/arm-template-specs/5-exercise-create-deploy-template-spec?pivots=bicepcli)
 
 ```bash

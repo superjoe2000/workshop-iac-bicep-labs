@@ -27,9 +27,11 @@ Install from
 
 #### Non default selections
 
+Select the non-default options below when stepping through the installation dialog.
+
 ```bash
 Use the native Windows Secure Channel library
-Use Windows' default console window
+Use Windows default console window
 ```
 
 #### Post installation actions
@@ -58,7 +60,7 @@ This link will start a download in your browser. When it is complete, click on "
 
 ![azureclidownload](../../../../images/azureclidownload.png)
 
-Which opens a dialog to install.  
+This will open a dialog to install.  
 *Note: You may need to wait a few moments for the installer to complete requirements*
 
 Click on the checkbox to accept terms and click on the "Install" button.

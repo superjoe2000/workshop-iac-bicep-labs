@@ -24,6 +24,8 @@ Lab Guides for workshop "Introduction to IaC using Bicep"
 
 ### Module 2 Introduction to Bicep Templates
 
+[Pre-Lab](labfiles/Day%201/Module%202%20Introduction%20to%20Bicep%20Templates/Pre-Lab/README.md)
+
 [Lab01](labfiles/Day%201/Module%202%20Introduction%20to%20Bicep%20Templates/Lab01/readme.md)
 
 ### Module 3 Build reusable Bicep Templates

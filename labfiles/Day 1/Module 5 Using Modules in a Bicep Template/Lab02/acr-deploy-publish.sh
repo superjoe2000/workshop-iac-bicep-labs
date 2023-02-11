@@ -1,7 +1,7 @@
 #!/bin/sh
 resourceGroupName="rg-iac-bicep-labs"
 location="EastUS2"
-acrname="acrm5l2xxx"
+acrname="acrm5l2xyz"
 
 ##Version release tag f
 moduleReleaseVersion="v1.0.0"

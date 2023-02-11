@@ -15,3 +15,5 @@ https://learn.microsoft.com/en-au/training/modules/migrate-azure-resources-bicep
 5. Verify Bicep Template
 6. Try deploying Bicep template
 7. Review results
+
+Stop at Unit 6 of 10

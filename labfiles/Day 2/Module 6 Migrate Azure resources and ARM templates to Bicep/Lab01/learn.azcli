@@ -1,0 +1,7 @@
+az config set defaults.group="learn-8d79bf06-7278-4cbd-aba7-6329ced10992"
+
+az deployment group what-if \
+  --mode Complete \
+  --resource-group learn-8d79bf06-7278-4cbd-aba7-6329ced10992 \
+  --template-file main.bicep \
+  --parameters main.parameters.production.json

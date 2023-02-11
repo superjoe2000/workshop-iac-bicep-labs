@@ -1,0 +1,4 @@
+az deployment group create\
+  --resource-group learn-8d79bf06-7278-4cbd-aba7-6329ced10992 \
+  --template-file main.bicep \
+  --parameters main.parameters.production.json
